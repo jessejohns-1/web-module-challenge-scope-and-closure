@@ -43,6 +43,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+closure gives you access to the outer functions scope from the inner function
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,11 +65,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
-a closure happens with name because it is going to the outer scope to grab the name variable
+a closure happens when a inner function reaches into it's parent scope to grab a value for example name is reaching to it's parent to recieve a value
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
 the name is always the same for dans roll but because of math.random the newroll is 0-5
 c. What is the lexical scope of `newRoll`? 
-the lexical scope of new roll is personaldice
+the lexical scope of new roll is personalDice
 
 ### Task 3 - Stretch Goals
 
